@@ -1,0 +1,87 @@
+.mhtq_container {
+  height: 89vh;
+}
+
+.mhtq_total {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.mhtq_total h5 {
+  margin: 0;
+  padding: 10px;
+  background-color: #00008b;
+  color: #ffff;
+  font-size: 20px;
+  width: 93vw;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 12px;
+}
+
+.mhtq_room {
+  margin-top: 10px;
+  margin-left: 12px;
+  margin-left: 10px;
+}
+
+.mhtq_room table,
+.mhtq_room th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.mhtq_room_sec {
+  border: 3px solid #00008b;
+  padding: 0 10px;
+  text-align: center;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.mhtq_room_sec h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #00008b;
+  margin-top: 40px;
+  height: 35px;
+  margin-bottom: 20px;
+}
+
+.mhtq_room_sec h5 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.mhtq_room_sec h5 span {
+  font-size: 40px;
+  margin: 0;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .mhtq_total {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .mhtq_room_sec {
+    height: 140px;
+  }
+
+  .mhtq_room_sec h5 {
+    font-size: 15px;
+    margin-top: -10px;
+  }
+}
+
+.icon_menu {
+  color: #fff;
+  padding: 12px;
+  background-color: #00008b;
+  border-radius: 10px;
+  margin-left: 12px;
+}

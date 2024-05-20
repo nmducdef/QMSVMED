@@ -1,0 +1,110 @@
+.draw_header p {
+  color: #fff;
+  background-color: #00008b;
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.draw_body {
+  height: 78vh;
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.draw_body .display {
+  background: #fff;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.draw_body .display h5 {
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.draw_body_display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 78vh;
+  margin-top: 13%;
+}
+
+.draw_body .display h6 {
+  font-size: 150px;
+  margin: 0;
+}
+
+.draw_body .btn {
+  color: #fff;
+  background-color: #00008b;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  font-size: 30px;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+.draw_body_detail {
+  height: 78vh;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.draw_body_detail .steps {
+  width: 80%;
+  height: 13%;
+}
+
+.detail_total {
+  background-color: #fff;
+  width: 80%;
+  height: 14%;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.detail_total h5 {
+  font-size: 30px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.detail_total h6 {
+  font-size: 40px;
+  margin: 0;
+  margin-top: 5px;
+  color: #00008b;
+}
+
+.btn_back {
+  background: #00008b;
+  width: 50%;
+  padding: 10px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+  height: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}

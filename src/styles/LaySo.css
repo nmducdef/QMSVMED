@@ -1,0 +1,94 @@
+.layso_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  height: 8vh;
+}
+
+.layso_header img {
+  height: 50px;
+  width: auto;
+}
+
+.layso_header img:last-child {
+  height: 60px;
+  width: auto;
+}
+
+.layso_header h1 {
+  color: #00008b;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  position: relative;
+}
+
+.layso_body_top {
+  height: 85vh;
+  background: #274580;
+}
+
+.layso_body_top p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.layso_body_bottom {
+  height: 50vh;
+  background-color: #ccc;
+}
+
+.layso_body_scan {
+  padding: 150px;
+  background-color: #00008b;
+  width: 17vw;
+  border-radius: 16px;
+  position: absolute;
+  top: 26vh;
+  right: 33vw;
+}
+
+.layso_body_scan p {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.layso_footer {
+  height: 5.43vh;
+  background-color: #00008b;
+}
+
+.modal_layso {
+  width: 90vw !important;
+}
+
+.modal_layso p {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.modal_layso .ant-modal-title {
+  font-size: 30px !important;
+}
+
+.btn_malankham {
+  height: 6vh !important;
+  margin-top: 30px;
+  width: 30vw;
+  background-color: #00008b;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.btn_malankham:hover {
+  color: #00008b !important;
+}

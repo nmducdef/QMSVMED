@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  margin: 10px 20px;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.header img {
+  height: 50px;
+  width: auto;
+}
+
+.header img:last-child {
+  height: 70px;
+  width: auto;
+}
+
+.header h1 {
+  color: #00008b;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .header h1 {
+    font-size: 30px !important;
+    margin-left: 16px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header h1 {
+    font-size: 20px !important;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .header .img1 {
+    height: 40px !important;
+  }
+
+  .header .img2 {
+    height: 50px !important;
+    margin-top: -5px;
+  }
+}

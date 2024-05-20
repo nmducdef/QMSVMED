@@ -1,0 +1,77 @@
+.table {
+  width: 98%;
+  margin-top: 20px;
+  height: 70px;
+  border-radius: 15px;
+  border-style: hidden;
+  border: 2px solid #00008b;
+}
+
+.text-table-nho {
+  width: 27%;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #00008b;
+}
+
+.text-data-nho {
+  font-size: 14px;
+  text-align: left;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.marquee span {
+  display: inline-block;
+  animation: marquee 3s linear infinite;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  color: #00008b;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media screen and (min-width: 2048px) {
+  .table {
+    height: 100px;
+  }
+
+  .text-table-nho {
+    font-size: 30px;
+  }
+  .text-data-nho span {
+    font-size: 30px;
+  }
+}
+
+.card_choketqua
+  :where(.css-dev-only-do-not-override-1k979oh).ant-card
+  .ant-card-body {
+  height: 40vh !important;
+  margin-bottom: 25px !important;
+}
+
+.custom-card .ant-card-head {
+  background-color: #00008b;
+  border-color: #00008b !important;
+  padding: 10px 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  min-height: 62px;
+}
+
+.custom-card .ant-card-bordered {
+  border: 2px solid #00008b;
+}
